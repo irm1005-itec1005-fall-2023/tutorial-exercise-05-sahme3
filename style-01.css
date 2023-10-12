@@ -23,38 +23,25 @@ body {
   background-color: #edf2f4;
   /* Set the text colour */
   color: #242121;
-
-  /* Flex directives */
-  /* 1. Set the display to flex */
-
-  /* 2. Set the flex direction to column */
-
-  /* 3. Set the justify content to space between */
-
-
+ /*Set display flex*/
+display:flex;
+flex-direction:column;
+justify-content:space-between;
+align-items:center;
 }
 
-/* The first item in the flex container will be the header */
 
-/*
-  To keep things simple we just target the
-  header directly. Here we are adding
-  padding to the top and bottom and sides
-  and setting the background and text colours.
-*/
+
 header {
-  padding: 2rem 1rem;
-  /* 4. Set a cool background colour */
-
-  /* 5. Set a cool text colour (or use #edf2f4) */
-
+  padding: 1rem 44rem;
+ background-color: #315a72;
+ color:antiquewhite;
+text-align: center;
 }
 
 header h2 {
-  /* 6. Set the text alignment to center */
-
-
   margin: 0;
+  text-align: center;
 }
 
 
@@ -72,9 +59,8 @@ header h2 {
   make it look a bit better
 */
 main {
-  /* 7. Set the align-self to center
-        This is so our element does stretch to full width of the page
-  */
+ align-self: center;
+ max-width: 100%;
 
   min-width: 500px;
   padding: 5rem;
@@ -92,11 +78,9 @@ main {
   and setting the background and text colours.
 */
 footer {
-  padding: 2rem 1rem;
-  /* 8. Set a cool background colour (or use #1d3557) */
-
-  /* 9. Set a cool text colour (or use #edf2f4) */
-
+  padding: 1rem 42rem;
+ background-color: aqua;
+color:beige
 }
 
 footer h2 {
